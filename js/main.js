@@ -71,15 +71,7 @@ toggleTheme.addEventListener('click', function() {
     tab.classList.remove('open')
   }
 });
-//The code below is created by jason in the course the code snippet above is my preference for the site
-// toggleTheme.addEventListener('click', function() {
-//   const tab = this.parentElement.parentElement;
-//   if (!tab.className.includes(open)) {
-//     tab.classList.add(open);
-//   } else {
-//     tab.classList.remove(open);
-//   }
-// });
+
 for (const elm of switcher) {
   elm.addEventListener('click', function() {
     const toggle = this.dataset.toggle;
